@@ -1,0 +1,206 @@
+export const DESIGNER = {
+  name: "Priyanka M",
+  role: "Industrial Designer",
+  email: "hello@priya.design",
+  linkedin: "https://www.linkedin.com/",
+};
+
+export const EXHIBITS = [
+  {
+    id: "entrance",
+    kind: "entrance",
+    eyebrow: "INDUSTRIAL DESIGNER",
+    title: "For the everyday.",
+    subtitle: "Built to be kept.",
+    description:
+      "From understanding user needs to developing tangible solutions, I approach product design through research, exploration, modelling and prototyping.",
+    cta: "Explore projects",
+  },
+  {
+    id: "about",
+    kind: "panel",
+    panel: {
+      side: "left",
+      z: 0,
+      number: "01",
+      sketch: "portrait",
+    },
+    portrait: "/Priyanka_Picture.jpg",
+    eyebrow: "01 / About my practice",
+    title: "Priyanka M",
+    subtitle: "Industrial Designer",
+    description:
+      "I turn everyday observations into thoughtful design. From the first interview to the final finish, I care about how a product feels, how it is made, and how it ages.",
+    bullets: [
+      "Research & user studies · interviews, surveys, observation",
+      "Ideation & sketching · concept, form, proportion",
+      "CAD & rendering · modelling, visualisation",
+      "Prototyping · mock-ups, fit, finish",
+      "Materials & manufacturing · wood, foam, DFM",
+    ],
+    highlights: ["Research", "Concept development", "CAD", "Prototyping"],
+    color: "#85a7b2",
+  },
+  {
+    id: "experience",
+    kind: "panel",
+    panel: {
+      side: "right",
+      z: -6.8,
+      number: "02",
+      sketch: "timeline",
+    },
+    eyebrow: "02 / Professional experience",
+    title: "Professional experience",
+    subtitle: "Product design internships",
+    description:
+      "Recent studio experience spanning interface design and physical product development, from first wireframe to detailed model and finish.",
+    experiences: [
+      {
+        company: "NoviTech",
+        role: "Product Design Intern",
+        dates: "Aug 2025 — Sep 2025",
+        description: "Designed and refined web and mobile interfaces, creating Figma wireframes and usability-focused prototypes.",
+      },
+      {
+        company: "Smith Studio",
+        role: "Product Design Intern",
+        dates: "May 2026 — Jul 2026",
+        description: "Modelled brass handles and knobs in Fusion 360, created technical drawings, and explored catalogue finishes.",
+      },
+    ],
+    color: "#c79669",
+  },
+  {
+    id: "toolkit",
+    kind: "panel",
+    panel: {
+      side: "left",
+      z: -13.6,
+      number: "03",
+      sketch: "toolkit",
+    },
+    eyebrow: "03 / Toolkit & interests",
+    title: "Toolkit & interests",
+    subtitle: "Software · Capabilities · Interests",
+    description:
+      "A hands-on practice that connects user insight, form exploration, digital modelling and physical making.",
+    toolGroups: [
+      {
+        title: "Software",
+        detail: "Digital tools",
+        items: ["Fusion 360", "Rhino", "Blender", "Figma", "Photoshop", "Illustrator"],
+      },
+      {
+        title: "Capabilities",
+        detail: "Design practice",
+        items: ["Design thinking", "Problem-solving", "Research", "Sketching", "Prototyping"],
+      },
+      {
+        title: "Interests",
+        detail: "Things I explore",
+        items: ["Toys", "Furniture", "Home & kitchen", "Everyday objects", "Material craft"],
+      },
+    ],
+    color: "#a7bd93",
+  },
+  {
+    id: "connect",
+    kind: "panel",
+    panel: {
+      side: "right",
+      z: -20.4,
+      number: "04",
+      sketch: "contact",
+    },
+    eyebrow: "04 / Connect",
+    title: "Let's build something useful.",
+    subtitle: "Open to thoughtful collaborations",
+    description:
+      "Have a product idea, a research question, or a detail worth exploring? Get in touch and let's make it tangible.",
+    bullets: ["Email · hello@priya.design", "LinkedIn · Priyanka M"],
+    links: [
+      { label: "Email Priyanka", href: "mailto:hello@priya.design" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/" },
+    ],
+    color: "#d0aa72",
+  },
+  {
+    id: "swara",
+    kind: "pull-toy",
+    roomPosition: [-5, -33],
+    eyebrow: "01 / Children's product",
+    title: "Swara Pull Toy",
+    subtitle: "Wooden pull toy · Wood & natural materials",
+    description:
+      "A wooden pull toy built around one simple idea: a colourful drum that rattles, strikes and turns as a toddler pulls it along. The project moves from research and mood boards to renders and a tested prototype.",
+    bullets: ["Product design", "Wood & natural materials", "Prototyping"],
+    pdf: "/SWARA.pdf",
+    color: "#d8a56c",
+    demoLabel: "Drum colour",
+    stats: [
+      { value: "01", label: "Core play idea" },
+      { value: "04", label: "Design stages" },
+    ],
+    process: [
+      { title: "Research", text: "Play patterns and sensory needs of toddlers learning to walk and pull." },
+      { title: "Inspire", text: "A mood board of colour, natural wood and warm, tactile materials." },
+      { title: "Ideate", text: "A modular base on wheels, a colour-segmented drum, and a pull cord." },
+      { title: "Make", text: "Prototype parts tested for fit and finish before final assembly." },
+    ],
+    closing: "Built around one simple idea, and then made to work for a child's hands.",
+  },
+  {
+    id: "cozy-grow",
+    kind: "convertible-chair",
+    roomPosition: [4.8, -45],
+    eyebrow: "02 / Infant furniture",
+    title: "Cozy Grow",
+    subtitle: "Convertible high chair · Ergonomics & mechanism design",
+    description:
+      "One product, two stages. Cozy Grow starts as a high chair and converts into a feeding chair, so the child keeps using the same product from about nine months to five years.",
+    bullets: ["Convertible furniture", "Ergonomics", "Mechanism design"],
+    pdf: "/COZY%20GROW.pdf",
+    color: "#8eb4a3",
+    demoLabel: "Seat position",
+    stats: [
+      { value: "15", label: "Parent interviews" },
+      { value: "70+", label: "Survey respondents" },
+      { value: "10+", label: "Products benchmarked" },
+    ],
+    process: [
+      { title: "Listen", text: "Interviews and a survey with parents, plus observation of cradles and high chairs in use." },
+      { title: "Map", text: "A user journey and empathy mapping to find key pain points and opportunities." },
+      { title: "Ideate", text: "Seat, feeding table and footrest reconfigured by one simple sequence of moves." },
+      { title: "Engineer", text: "Locking and sliding mechanism, dimensions and structure developed for durability." },
+    ],
+    closing: "A cradle, a high chair and a feeding chair, folded into one.",
+  },
+  {
+    id: "kosha",
+    kind: "shell-chair",
+    roomPosition: [-4.3, -57],
+    eyebrow: "03 / Lounge furniture",
+    title: "Kosha",
+    subtitle: "Bioinspired seating · Walnut & foam",
+    description:
+      "\"Form embraces function.\" Kosha is a relaxing chair system whose outline is drawn from the geometry of a peanut shell, combined with ergonomic support, walnut craftsmanship and an angle-adjustable mechanism.",
+    bullets: ["Bioinspired form", "Sculptural seating", "Walnut & foam"],
+    pdf: "/KOSHA.pdf",
+    color: "#bd8f80",
+    demoLabel: "Recline angle",
+    process: [
+      { title: "Observe", text: "Morphology of the peanut shell, studied as a seat and support." },
+      { title: "Sketch", text: "Dozens of shell-inspired profiles, from loose sketches to refined outlines." },
+      { title: "Converge", text: "A curved walnut frame with a contoured seat that reads as one sculpted piece." },
+      { title: "Refine", text: "Renders of finish and detail, plus the angle-adjust mechanism." },
+    ],
+    features: [
+      { title: "Hand rest", text: "Built into the frame for comfortable reclining." },
+      { title: "Ergonomic comfort", text: "Polyurethane foam seat contoured to the body." },
+      { title: "Stable, elegant legs", text: "Curved wood forms that carry the load." },
+      { title: "Angle-adjustable mechanism", text: "Choose the recline you want, with no tools." },
+    ],
+    closing: "Relaxation shaped by the form of a shell.",
+  },
+];
